@@ -36,13 +36,7 @@ The analysis of the election show that:
 [![Election Results](Election_Results.png)](Election_Results.png)
 
 ## Summary
-This script allows the Colorado Board of Elections employee to visualize the outcomes of the election audit. We succeeded in displaying:
-
-1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
+This script allows the Colorado Board of Elections employee to visualize the outcomes of the election audit. We succeeded in displaying the original five desired outcomes.
 
 This script is versatile and could be applied to various other settings. It could be used for any election, of any size or circumstance.
 
