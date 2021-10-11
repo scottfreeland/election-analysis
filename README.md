@@ -20,7 +20,7 @@ The analysis of the election show that:
   - Denver County, which cast 306,055 votes (82.8% of total votes cast).
   - Jefferson County, which cast 38,855 (10.5% of total votes cast).
   - Arapahoe County, which cast 24,801 (6.7% of total votes cast).
-- Denver County case the largest number of votes in this election, with their 306,055 total votes cast.
+- Denver County cast the largest number of votes in this election, with their 306,055 total votes cast.
 - The candidates were:
   - Charles Casper Stockham
   - Diana DeGette
@@ -42,4 +42,9 @@ This script is versatile and could be applied to various other settings. It coul
 
 If someone wanted to see the breakdown of votes for homecoming king at a high school, this script could be used. All that would need to change are a few things. First, the data from which we pull would need to be the relevant data for who received votes to become the high school homecoming king for a specific year. Certain variable names would need to be altered to become more specific and appropriate to the election of homecoming king. Second, the messages our code writes into the output .txt file would need to be altered, again, to reflect the specific homecoming election going on. We could even breakdown the votes per class, those being the freshman, sophomore, juinor, and senior classes. We would simply need to alter the "county" lines of our code to become "classes" in lieu of "counties".
 
-Similarly, we could alter this code to use it for votes cast for an all-star soccer game, per position. We would need various data files, with each one specifically conveying voting data for a specific position on the pitch. All in all, we would just run the code 11 times for 11 positions on the soccer field. Again, we would alter the label names in our code to reflect more appropriately what the votes were being cast for. But, the greater part of the code could remain untouched and it could do an excellent job displaying to us which players received the most votes from fans. Ultimately, we could fill a pitch of 11 poisitons, of individuals who received the greatest amount of votes per specific position they play for.
+#### For Example
+Instead of writing a for-loop to get the county from the county dictionary, like we did below:
+    for county_name in county_votes:
+We could instead rename variables to candidate_name and candidate_votes in lieu of county_name and county_votes, in effort to get the homecoming candidate's name from the dictionary of homecoming candidate's votes, which we would have previously formulated.
+
+Similarly, we could alter this code to use it for votes cast for an all-star soccer game, per position. We would need various data files, with each one specifically conveying voting data for a specific position on the pitch. All in all, we would just run the code 11 times for 11 positions on the soccer field. Again, we would alter the label names in our code to reflect more appropriately what the votes were being cast for. But, the greater part of the code could remain untouched and it could do an excellent job displaying to us which players received the most votes from fans. Ultimately, we could fill a pitch of 11 positions, of individuals who received the greatest amount of votes per specific position they play for.
