@@ -32,6 +32,9 @@ The analysis of the election show that:
 - The winner of the election was:
   - Diana DeGette, who received 73.8% of the votes with 272,892 number of votes.
 
+### Outcomes of Election-Audit
+![Election Results](Election_Results.png)
+
 ## Summary
 This script could be used for any election, of any size or circumstance.
 If someone wanted to see the breakdown of votes for homecoming king at a high school, this script could be used. All that would need to change are a few things. First, the data from which we pull would need to be the relevant data for who received votes to become the high school homecoming king for a specific year. Certain variable names would need to be altered to become more specific and appropriate to the election of homecoming king. Second, the messages our code writes into the output .txt file would need to be altered, again, to reflect the specific homecoming election going on. We could even breakdown the votes per class, those being the freshman, sophomore, juinor, and senior classes. We would simply need to alter the "county" lines of our code to become "classes" in lieu of "counties".
